@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between; /* Alinha o <h1> e a lista com espaço entre eles */
+    align-items: center;
+    padding: 5px 10px;
+}
+
+header h1{
+    font-weight: 800;
+    font-family: 'inter';
+    color: #f57d00;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+header nav ul li:hover{
+    color: #774c1e;
+    cursor: pointer;
+}
+.btn_login{
+    background-color:#f57d00 ;
+    border: 0;
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    transition: 0.3s ease all;
+    cursor: pointer;
+
+
+}
