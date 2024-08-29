@@ -1,0 +1,39 @@
+.container-footer {
+    background-color: #d32f2f; /* Cor de fundo vermelha */
+    color: #fff; /* Cor do texto branca para contraste */
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-top: 2px solid #b71c1c; /* Linha de borda superior mais escura para destaque */
+}
+
+.container-footer h2 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.container-footer p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.container-footer a {
+    color: #ffebee; /* Cor dos links, um tom claro de rosa para contrastar com o fundo vermelho */
+    text-decoration: none;
+}
+
+.container-footer a:hover {
+    text-decoration: underline;
+}
+
+.container-footer .social-icons {
+    margin-top: 10px;
+}
+
+.container-footer .social-icons img {
+    width: 24px; /* Ajuste o tamanho dos ícones sociais */
+    height: auto;
+    margin: 0 10px;
+    vertical-align: middle;
+}
