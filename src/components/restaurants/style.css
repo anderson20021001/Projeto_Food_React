@@ -1,0 +1,35 @@
+h1{
+    color:black;
+    text-align:center;
+}
+.restaurants_container {
+    padding: 5px 10px;
+    margin-top: 50px;
+}
+
+.restaurant_card {
+    width: 300px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px; /* Espaço entre os cards verticalmente */
+}
+
+.restaurant_card .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Para garantir que o avatar seja completamente redondo */
+}
+
+.restaurant_card .content_info p:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container_cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaço entre os cards */
+    justify-content: space-between;
+}
